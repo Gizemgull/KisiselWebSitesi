@@ -25,7 +25,7 @@ This project is a personal website developed using the **MVC (Model-View-Control
 
 For more information about the project, you can watch the following YouTube video:
 
-[Project Introduction Video](https://www.youtube.com/watch?v=VideoLink)  
+[Project Introduction Video](https://www.youtube.com/watch?v=4Bg6hH2M3d4&list=PLdz-gps4GThyciJ7YhwsibPXjoJW762RS)  
 (Insert your YouTube video link here)
 
 ## Contributing
