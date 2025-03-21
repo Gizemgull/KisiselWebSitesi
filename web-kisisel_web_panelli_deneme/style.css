@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(img/back_image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; /*display flexle birlikte ortaladı*/ /*yatayda*/
+    align-items: center; /*dikeyde ortaladı*/
+}
+
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+}
+.center{
+    width: 600px; /*hepsini kaplamasın*/
+    background-color: rgb(252, 185, 243);
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.content{
+    padding: 25px;
+}
+h1{
+    color: blueviolet;
+}
+.content h2,p{
+   color: rgb(83, 58, 107); 
+   padding: 10px;
+   /*font-weight: lighter;*/
+   letter-spacing: 1px; /*yazılar arası uzaklaık*/
+   width: 80%;
+   margin: 10px auto;
+}
+.content h3{
+    margin-top: 20px;
+    color: rgb(52, 1, 100);
+}
+div.social i{
+    padding: 0 10px; /*ikonlar arası mesafe*/
+    font-size: 30px;
+    color: rgb(212, 0, 255);
+    transition: 0.4s; /*hoverın yavaşlığı*/
+}
+div.social i:hover{
+    color:rgb(95, 0, 114) ;
+}
+
+/*responsive*/
+@media screen and (max-width:700px) {
+    .center{
+        width: 300px;
+        height: 500px;
+    }
+    h1{
+        font-size: 22px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    p{
+        width: 90%;
+        font-size: 12px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .social a i{
+        font-size: 35px;
+    }
+    
+}
